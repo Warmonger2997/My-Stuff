@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <head>
+    <title>Technical Documentation Page</title>
+  </head>
+  <body>
+    <nav id="navbar">
+        <header>Comprehension Data Sheet</header>
+        <a href="#basics"  class="nav-link">
+          Basics
+        </a>
+        <a href="#html_essentials"  class="nav-link">Html Essentials</a>
+        <a href="#css_styling"  class="nav-link">CSS Styling</a>
+        <a id="shortcuts" href="#shortcuts"   class="nav-link">Shortcuts</a>
+        <a  id="closing" href="#closing" rel="main-section"  class="nav-link">Closing</a>
+        </nav>
+    <main id="main-doc">
+      <section class="main-section"  id="basics">
+        <header>Basics</header>
+        <p>you will need to put some elements in most html code,such as <code>!DOCTYPE html</code> to announce the type of file it is, to announce you want to have yout html element in english use <code>html lang=en</code>.</p>
+        <p>Remember to close your tags unless your tag is self-closing</p>
+        <p>Remember to link your stylesheet to your page with a <code> link</code> element typically followed by <code>rel="stylesheet" href="styles.css"</code>.</p>
+        <p>Try to leave a gap between elements you are going to nest many other elements in so you are less likely to nest them outside the parent.</p>
+        <p>If not obvious, separating large sections of a page should be done with <code>section</code> elements, with child elements to be nested inside.</p>
+
+
+      </section>
+      <section class="main-section" id="html_essentials">
+        <header>Html Essentials</header>
+        <p>knowing your header numbers can help you have font sizing without css with h elements, h elements go from 1-6 with 1 being the biggest and 6 being the smallest.</p>
+        <p>use <code>Head</code> elements to nest <code>title</code> elements to give your webpage a title on the navigation bar.</p>
+        <ul>
+          <li><code>META</code> tags with the attributes <code>name="viewport" content="width=device-width, initial scale=1.0"</code> will be the size of the device viewing it</li>
+          <li>most webpages use <code> UTF-8</code></li>
+          <li><code>Nav</code> elements can be used for links to take you to other pages or other sections within a page you are currently viewing.</li>
+          </ul>
+          <p>Make sure you assign classes and ids to your elements to make selections with css much easier.</p>
+        
+      </section>
+      <section class="main-section" id="css_styling">
+        <header>CSS Styling</header>
+        <p>you can make all kinds of things with css, boxes, dividers, borders, if you can imagine it and figure ou the dimensions you can reasonably make them with <code>flexbox</code>.</p>
+        <p>using css you can style webpages and text and even orient text on the webpage to wherever you may want.</p>
+        <p>common css variables are <code>color: (whatever color you want); </code> to color the text on the screen <code>background-color: (your preferred color)</code> to change the color of the background and <code>text-align: (top,left, right, bottom);</code> to align the text to different sides of the screen.</p>
+      </section>
+      <section class="main-section" id="shortcuts">
+        <header>Shortcuts</header>
+        <p>Honestly, make a habit of setting yourself up with element tags ahead of time and if you need multiple, don't be afraid to copy them.</p>
+        <ul>
+          <li>if you need 5 sections set up 1 full section tag with class and id and copy paste that sucker 5 times, and you are halfway there.</li>
+          <li>don't be afraid to google a solution to your issue.</li>
+        </ul>
+        <p>Arrange full sections ahead of time to make arranging and styling easier if you want to apply css to specific parts of the page.</p>
+        <p> <code>ul</code> lists are shown as dots, however <code>ol</code> lists are numbered.</p>
+      </section>
+      <section class="main-section" id="closing">
+        <header>Closing</header>
+        <p>a lot of this has been beaten into you, or me by now, however I am very forgetful, and since this is going to be available to me at any given point I can only hope it is helpful.</p>
+        <p>Do not be discouraged, you can do this.</p>
+        <ul>
+          <li>Take a break every so often.</li>
+          <li>Look away from the screen every 20 minutes at something at least 20 feet away for 20 seconds to prevent eye strain.</li>
+          <li>get up and stretch as sedentary work can be degrading on your spine, and bad for your back.</li>
+          <li>if you cannot figure something out, do not get too frustrated; sometimes the answer lies in perspective, and stepping away from the problem can give you that.</li>
+          </ul>
+      </section>
+      
+      </main>
+    </body>
+</html>
