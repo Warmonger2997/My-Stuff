@@ -1,0 +1,19 @@
+Header {
+  text-align: center;
+  background-color: #ada7a1;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+section {
+  background-color: Tan;
+
+}
+main {
+  background-color: #4f4b48;
+}
+a {
+  color: black;
+}
